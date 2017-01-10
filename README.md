@@ -1,21 +1,13 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Angular2 Service for retrieving a list of States, Territories or a merged array of both
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* import { USStateService } from './path/to/service/us-states.service';
+* providers: [USStateService] // Add to providers array
+* constructor(private usStateService: USStateService) {} // Injecty into constructor
+* this.usStateService.getStates(); // Use
 
 ### Contribution guidelines ###
 
@@ -25,5 +17,4 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Brant Wellons <Brant@BrantWellons.com
