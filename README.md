@@ -16,9 +16,8 @@ Angular2 Service for retrieving a list of States, Territories or a merged array 
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Write tests
+* Pull Request
 
 ### Who do I talk to? ###
 
