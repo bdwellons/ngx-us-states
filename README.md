@@ -9,6 +9,11 @@ Angular2 Service for retrieving a list of States, Territories or a merged array 
 * constructor(private usStateService: USStateService) {} // Injecty into constructor
 * this.usStateService.getStates(); // Use
 
+### Methods ###
+* getStates - returns 50 states
+* getTerritories - returns 9 territories
+* getAll - returns 59 states and territories
+
 ### Contribution guidelines ###
 
 * Writing tests
