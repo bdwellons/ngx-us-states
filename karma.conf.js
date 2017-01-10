@@ -4,7 +4,7 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
     
     files: [
-      { pattern: 'test.bundle.js', watched: false }
+      { pattern: '**.spec.js', watched: false }
     ],
 
     preprocessors: {
