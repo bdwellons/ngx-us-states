@@ -4,7 +4,7 @@ Angular2 Service for retrieving a list of States, Territories or a merged array 
 
 ### How do I get set up? ###
 
-* import { USStateService } from 'ng-2-us-states/us-states.service';
+* import { USStateService } from 'ng2-us-states/us-states.service';
 * providers: [USStateService] // Add to providers array
 * constructor(private usStateService: USStateService) {} // Inject into component constructor
 * this.usStateService.getStates(); // Use
