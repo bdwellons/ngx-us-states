@@ -1,4 +1,4 @@
-export class State {
+export interface IRegion {
 	name: string;
 	abbreviation: string;
 }
