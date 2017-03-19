@@ -15,7 +15,10 @@
     "States",
     "Territories"
   ],
-  "author": "Brant Wellons",
+  "author": "Brant Wellons <brant@brantwellons.com>",
+  "contributors": [
+    "Juan Hererra <david.juanherrera@gmail.com>"
+  ],
   "license": "MIT",
   "homepage": "https://bitbucket.org/bwellons/ng-2-us-states#readme",
   "devDependencies": {
@@ -40,7 +43,7 @@
     "rimraf": "^2.5.2",
     "rxjs": "^5.0.3",
     "ts-loader": "^0.8.1",
-    "typescript": "^2.2.1",
+    "typescript": "2.1.4",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "zone.js": "^0.5.15"
