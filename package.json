@@ -2,9 +2,9 @@
   "name": "ng2-us-states",
   "version": "2.0.0",
   "description": "Angular 2 service for retrieving States and Territories",
-  "main": "ng2-us-states.ts",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,12 @@
   "contributors": [
     "Juan Hererra <david.juanherrera@gmail.com>"
   ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "homepage": "https://bitbucket.org/bwellons/ng-2-us-states#readme",
   "devDependencies": {
     "@angular/core": "^2.4.10",
-    "@types/jasmine": "^2.5.46",
     "babel-cli": "^6.18.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-runtime": "^6.15.0",
@@ -32,12 +33,6 @@
     "es6-promise": "^3.1.2",
     "es6-shim": "^0.33.13",
     "es7-reflect-metadata": "^1.6.0",
-    "jasmine": "^2.5.3",
-    "jasmine-core": "^2.5.2",
-    "karma": "^0.13.22",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^0.3.8",
-    "karma-typescript": "^3.0.0-beta.2",
     "path": "^0.12.7",
     "reflect-metadata": "^0.1.10",
     "rimraf": "^2.5.2",

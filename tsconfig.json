@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-	"declaration": false,
+	"declaration": true,
 	"emitDecoratorMetadata": true,
 	"experimentalDecorators": true,
 	"lib": ["es6", "dom"],
@@ -10,9 +10,11 @@
 	"noEmitOnError": true,
 	"noImplicitAny": false,
 	"sourceMap": true,
-	"target": "es5"
+	"target": "es5",
+	"outDir": "dist/"
   },
   "exclude": [
-	  "node_modules"
+	  "node_modules",
+	  "**/*.spec.ts"
   ]
 }
