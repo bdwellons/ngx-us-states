@@ -1,7 +1,7 @@
 {
   "name": "ng2-us-states",
   "version": "3.0.0",
-  "description": "Angular 2 service for retrieving States and Territories",
+  "description": "Angular service for retrieving States and Territories",
   "scripts": {
     "test": "karma start",
     "prepublish": "tsc"
@@ -11,7 +11,7 @@
     "url": "git+https://bitbucket.org/bwellons/ng-2-us-states.git"
   },
   "keywords": [
-    "NG2",
+    "ng",
     "States",
     "Territories"
   ],

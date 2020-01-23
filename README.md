@@ -1,6 +1,6 @@
 # README
 
-Angular2 Service for retrieving a list of States, Territories or a merged array of both
+Angular Service for retrieving a list of States, Territories or a merged array of both
 
 ### How do I get set up?
 
@@ -8,6 +8,8 @@ Angular2 Service for retrieving a list of States, Territories or a merged array 
 	- `import { USStateModule } from 'ng2-us-states';`
 - Add it as an import:
 	- `imports: [ USStateModule ]`
+- Import in to your component:
+	- `import { USSateService } from 'ng2-us-states'`
 - Inject it in the constructor of your component:
 	- `constructor(private usStateService: USStateService) {}`
 - Call the methods:
