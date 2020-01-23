@@ -1,6 +1,6 @@
 {
   "name": "ng2-us-states",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Angular service for retrieving States and Territories",
   "scripts": {
     "test": "karma start",
